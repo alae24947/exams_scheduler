@@ -1,4 +1,3 @@
-
 import os
 import pymysql
 
@@ -11,8 +10,3 @@ def get_conn():
         port=int(os.getenv("MYSQLPORT")),
         charset='utf8mb4'
     )
-
-
-conn = get_conn()
-print("Connected successfully!")  # Should print
-conn.close()
