@@ -106,6 +106,7 @@ streamlit run app.py
 - **Admin**: `admin` / `admin123` (peut tout faire)
 - **Doyen**: `doyen` / `doyen123` (vue globale)
 - **Chef**: `chef_info` / `chef123` (chef de département)
+- **viewer**: `viewer` / `viewer123` (etudant/prof)
 
 ##  Fonctionnalités
 
