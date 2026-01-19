@@ -1,5 +1,7 @@
-streamlit
+streamlit==1.30.0
+pymysql==1.1.0
 pandas
 psycopg2-binary
-pymysql
 python-dotenv
+
+
