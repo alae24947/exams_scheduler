@@ -65,7 +65,7 @@ else:
         # Admin actions
         if st.session_state.role == "admin":
             st.markdown("**Actions Administrateur**")
-            if st.button("Générer emplois du temps", use_container_width=True):
+            if st.button("Gérer emplois du temps", use_container_width=True):
                 with st.spinner("Génération en cours..."):
                     generate_exam_schedule()
                 st.success("EDT généré avec succès")
