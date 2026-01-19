@@ -101,8 +101,6 @@ source database/data.sql
 streamlit run app.py
 ```
 
-Ouvre http://localhost:8501 dans ton navigateur.
-
 ## Comptes de Test
 
 - **Admin**: `admin` / `admin123` (peut tout faire)
